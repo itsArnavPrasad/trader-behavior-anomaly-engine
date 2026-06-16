@@ -1,0 +1,11 @@
+data:
+  random_seed: 42
+  n_users: 200
+  n_events: 50000
+  anomaly_fraction: 0.05
+  raw_path: "data/raw/events.csv"
+  processed_path: "data/processed/features.csv"
+
+features:
+  rolling_windows: [5, 10]
+  z_score_threshold: 3.0
